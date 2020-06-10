@@ -69,7 +69,6 @@ nav {
 }
 
 #footer {
-
     width: 100%;
     color: white;
     position: relative;
@@ -91,47 +90,39 @@ nav {
     padding: 0px 15px;
 }
 
-@media screen and (max-width:700px) {
+@media (max-width:700px) {
     nav {
         display: block;
     }
-
     #title {
         text-align: center;
         font-size: 30px;
         width: 100%;
     }
-
     #links {
         /* display:; */
         width: 100%;
         /* justify-content: space-evenly; */
     }
-
     .nav-link {
         float: left;
     }
-
-    .shot {
-        width: 100%;
-        object-fit: contain;
-        padding: 0;
-        /* display: inline-block; */
-        /* float: left; */
-        margin: auto;
-    }
-
+   
     .ui-desc {
-        height: 900;
+        text-align: center;
+        min-height: 1000px;
         /* padding: 20; */
+    }
+    .heading {
+        font-size: 20px;
+        line-height: 1.1;
     }
 }
 
-@media screen and(max-width:920px) {
+@media (max-width:920px) {
     #ui-head {
         font-size: 20;
     }
-
     .shot {
         width: 100%;
         object-fit: contain;
@@ -166,8 +157,7 @@ nav {
     height: 500px;
 }
 
-#page2,
-#page3 {
+#page2, #page3 {
     display: none;
 }
 
