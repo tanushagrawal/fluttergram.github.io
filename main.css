@@ -25,7 +25,7 @@ nav {
      */
     padding-top: 10px;
     padding-bottom: 10;
-    display: flex;
+    display: block;
     justify-content: space-evenly;
     background-color: var(--primary);
     /* height: 45; */
@@ -38,6 +38,10 @@ nav {
     margin: 0;
     margin-left: 10;
     color: var(--nav-color);
+
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
     /* vertical-align: middle; */
     /* font-size: 30px; */
 }
@@ -127,9 +131,53 @@ nav {
 
 
 
+.nav-link:hover {
+    /* font-size: 20px; */
+    border-bottom: 3px white solid;
+}
 
+.shot {
+    float: right;
+    margin: 20;
+    margin-right: 5vw;
+    height: 450px;
+    /* box-shadow: 0px 5px 60px 0 rgba(0, 0, 0, .5); */
+    border-radius: 3px;
+    transition: height 1s cubic-bezier(0.41, -0.18, 0, 1.38);
+}
 
-@media (min-width:700px) {
+.shot:hover {
+    height: 550px;
+}
+
+.ui-desc {
+    background-color: rgba(124, 76, 187, 0.5);
+    height: 500px;
+}
+
+#page2,
+#page3 {
+    display: none;
+}
+
+#next {
+    background-color: transparent;
+    margin: 10;
+    padding: 10px 0px;
+    width: 150;
+    color: var(--primary);
+    font-size: 20;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: border 1s, color 1s, background-color 2s;
+}
+
+#next:hover {
+    color: white;
+    background-color: var(--primary);
+    border: none;
+}
+
+@media screen and (min-width:700px) {
     nav {
         /* padding: 0px 10px;
      */
@@ -177,7 +225,7 @@ nav {
     }
 }
 
-@media (max-width:920px) {
+@media screen and (min-width:920px) {
     #ui-head {
         font-size: 20;
     }
@@ -190,50 +238,4 @@ nav {
         /* float: left; */
         margin: auto;
     }
-}
-
-.nav-link:hover {
-    /* font-size: 20px; */
-    border-bottom: 3px white solid;
-}
-
-.shot {
-    float: right;
-    margin: 20;
-    margin-right: 5vw;
-    height: 450px;
-    /* box-shadow: 0px 5px 60px 0 rgba(0, 0, 0, .5); */
-    border-radius: 3px;
-    transition: height 1s cubic-bezier(0.41, -0.18, 0, 1.38);
-}
-
-.shot:hover {
-    height: 550px;
-}
-
-.ui-desc {
-    background-color: rgba(124, 76, 187, 0.5);
-    height: 500px;
-}
-
-#page2,
-#page3 {
-    display: none;
-}
-
-#next {
-    background-color: transparent;
-    margin: 10;
-    padding: 10px 0px;
-    width: 150;
-    color: var(--primary);
-    font-size: 20;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    transition: border 1s, color 1s, background-color 2s;
-}
-
-#next:hover {
-    color: white;
-    background-color: var(--primary);
-    border: none;
 }
