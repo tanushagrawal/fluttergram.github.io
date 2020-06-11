@@ -152,7 +152,8 @@ nav {
 
 .ui-desc {
     background-color: rgba(124, 76, 187, 0.5);
-    height: 500px;
+    min-height: 1000px;
+
 }
 
 #page2,
@@ -175,6 +176,11 @@ nav {
     color: white;
     background-color: var(--primary);
     border: none;
+}
+.desc{
+    width: 100%;
+    text-align: center;
+    display: flexbox;
 }
 
 @media screen and (min-width:700px) {
@@ -216,7 +222,7 @@ nav {
 
     .ui-desc {
         text-align: center;
-        min-height: 1000px;
+        min-height: 500px;
         /* padding: 20; */
     }
 
@@ -229,5 +235,14 @@ nav {
         float: right;
         margin: 20;
         margin-right: 5vw;
+    }
+
+    .desc {
+       margin-left: 5vw;
+       float: left;
+       width: 500px;
+    }
+    #ui-head{
+        float: left;
     }
 }
