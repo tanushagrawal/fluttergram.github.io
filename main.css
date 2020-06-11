@@ -177,51 +177,5 @@ nav {
     border: none;
 }
 
-@media screen and (min-width:700px) {
-    nav {
-        /* padding: 0px 10px;
-     */
-        padding-top: 10px;
-        padding-bottom: 10;
-        display: flex;
-        justify-content: space-evenly;
-        background-color: var(--primary);
-        /* height: 45; */
-        vertical-align: middle;
-    }
 
-    #title {
-        flex: 1;
-        padding: 0;
-        margin: 0;
-        margin-left: 10;
-        color: var(--nav-color);
-        /* vertical-align: middle; */
-        /* font-size: 30px; */
-    }
-
-    #links {
-        display: flex;
-        flex: 2;
-        justify-content: space-evenly;
-        padding-bottom: 5px;
-    }
-
-    .nav-link {
-        margin-top: 4;
-        text-decoration: none;
-        color: white;
-    }
-
-    .ui-desc {
-        text-align: center;
-        min-height: 1000px;
-        /* padding: 20; */
-    }
-
-    .heading {
-        font-size: 20px;
-        line-height: 1.1;
-    }
-}
 
