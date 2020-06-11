@@ -137,7 +137,7 @@ nav {
 }
 
 .shot {
-    float: right;
+    /* float: right; */
     margin: 20;
     margin-right: 5vw;
     height: 450px;
@@ -186,7 +186,7 @@ nav {
         display: flex;
         justify-content: space-evenly;
         background-color: var(--primary);
-        
+
         /* height: 45; */
         vertical-align: middle;
     }
@@ -223,5 +223,9 @@ nav {
     .heading {
         font-size: 20px;
         line-height: 1.1;
+    }
+
+    .shot {
+        float: right;
     }
 }
