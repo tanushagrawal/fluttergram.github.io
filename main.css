@@ -225,17 +225,3 @@ nav {
     }
 }
 
-@media screen and (min-width:920px) {
-    #ui-head {
-        font-size: 20;
-    }
-
-    .shot {
-        width: 100%;
-        object-fit: contain;
-        padding: 0;
-        /* display: inline-block; */
-        /* float: left; */
-        margin: auto;
-    }
-}
