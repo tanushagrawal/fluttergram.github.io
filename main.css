@@ -90,29 +90,87 @@ nav {
     padding: 0px 15px;
 }
 
-@media  (max-width:700px) {
+
+
+
+nav {
+    display: block;
+}
+
+#title {
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+}
+
+#links {
+    /* display:; */
+    width: 100%;
+    /* justify-content: space-evenly; */
+}
+
+.nav-link {
+    float: left;
+}
+
+.ui-desc {
+    text-align: center;
+    min-height: 1000px;
+    /* padding: 20; */
+}
+
+.heading {
+    font-size: 20px;
+    line-height: 1.1;
+}
+
+
+
+
+
+
+@media (min-width:700px) {
     nav {
-        display: block;
+        /* padding: 0px 10px;
+     */
+        padding-top: 10px;
+        padding-bottom: 10;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: var(--primary);
+        /* height: 45; */
+        vertical-align: middle;
     }
+
     #title {
-        text-align: center;
-        font-size: 30px;
-        width: 100%;
+        flex: 1;
+        padding: 0;
+        margin: 0;
+        margin-left: 10;
+        color: var(--nav-color);
+        /* vertical-align: middle; */
+        /* font-size: 30px; */
     }
+
     #links {
-        /* display:; */
-        width: 100%;
-        /* justify-content: space-evenly; */
+        display: flex;
+        flex: 2;
+        justify-content: space-evenly;
+        padding-bottom: 5px;
     }
+
     .nav-link {
-        float: left;
+        margin-top: 4;
+        text-decoration: none;
+        color: white;
     }
-   
+
     .ui-desc {
         text-align: center;
         min-height: 1000px;
         /* padding: 20; */
     }
+
     .heading {
         font-size: 20px;
         line-height: 1.1;
@@ -123,6 +181,7 @@ nav {
     #ui-head {
         font-size: 20;
     }
+
     .shot {
         width: 100%;
         object-fit: contain;
@@ -157,7 +216,8 @@ nav {
     height: 500px;
 }
 
-#page2, #page3 {
+#page2,
+#page3 {
     display: none;
 }
 
