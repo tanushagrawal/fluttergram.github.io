@@ -186,6 +186,7 @@ nav {
         display: flex;
         justify-content: space-evenly;
         background-color: var(--primary);
+        
         /* height: 45; */
         vertical-align: middle;
     }
